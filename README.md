@@ -6,22 +6,27 @@ Install Visual Studio and .NET Core
 (3) Start Visual Studio.
 (4) On the menu bar, choose File, Open, Project/Solution.
 
+
 Install Nuget package
-Right-click on your project and click �Manage NuGet Packages�.
+Right-click on your project and click Manage NuGet Packages.
 Search for "RestSharp and Newtontonsoft.Json" and install it
 
+
 Install Selenium
-Right-click on your project and click �Manage NuGet Packages�.
+Right-click on your project and click Manage NuGet Packages.
 Search for "Selenium.Support and Selenium.Webdriver" and install it
+
 
 The UI tests
 TestFeatureUI.feature file contains the 3 UI test scenarios.
 TestUISteps.cs- The step definitions for the feature file is added in this file. 
 
+
 The API tests
 APILevelTests.cs - The 3 API level tests are added here
 Models - Response model classes for getuser, createuser and update user responses are added. 
 TestSteps.cs and Helper.cs - API tests are defined with the help of these 2 files. 
+
 
 Below packages are needed to run this project:
 BoDi.1.5,0
